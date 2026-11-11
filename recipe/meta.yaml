@@ -32,7 +32,6 @@ requirements:
     - pybind11                               # [build_platform != target_platform]
     - scikit-build-core                      # [build_platform != target_platform]
     - setuptools_scm                         # [build_platform != target_platform]
-    - zeromq                                 # [build_platform != target_platform]
     - zlib                                   # [build_platform != target_platform]
     - zstd                                   # [build_platform != target_platform]
   host:
@@ -44,7 +43,6 @@ requirements:
     - pybind11
     - scikit-build-core
     - setuptools_scm
-    - zeromq
     - zlib
     - zstd
   run:
@@ -52,7 +50,6 @@ requirements:
     - numpy
     - protobuf
     - python
-    - zeromq
     - zlib
     - tqdm
     - zstd
